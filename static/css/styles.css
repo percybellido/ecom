@@ -10833,3 +10833,16 @@ textarea.form-control-lg {
     font-size: 12px;
   }
 }
+
+.navbar-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+@media (max-width: 576px) {
+    .navbar-logo {
+        width: 35px;
+        height: 35px;
+    }
+}
